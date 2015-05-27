@@ -10,6 +10,12 @@ package com.iescomercio.modelo;
  *
  * @author Vespertino
  */
-public class Cliente {
+public class Cliente extends Persona{
+    private String telefono;
     
+    @Override
+    public void mostrar() {
+//        super.mostrar();
+//        System.out.println(this.telefono);
+    }
 }

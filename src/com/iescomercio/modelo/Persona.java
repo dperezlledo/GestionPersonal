@@ -11,5 +11,9 @@ package com.iescomercio.modelo;
  * @author Vespertino
  */
 public class Persona {
+    private String nombre;
+    private int edad;
+    
+    public void mostrar() { }
     
 }

@@ -10,6 +10,13 @@ package com.iescomercio.modelo;
  *
  * @author Vespertino
  */
-public class Empleado {
+public class Empleado extends Persona{
+    private float salarioBruto;
     
+    public float calcularNeto () {
+        return 0;
+    }    
+    
+    @Override
+    public void mostrar() { }
 }

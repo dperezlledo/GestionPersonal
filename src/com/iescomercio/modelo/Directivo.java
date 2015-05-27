@@ -6,10 +6,25 @@
 
 package com.iescomercio.modelo;
 
+import java.util.Collection;
+
 /**
  *
  * @author Vespertino
  */
-public class Directivo {
+public class Directivo extends Empleado{
+    private String categoria;
+    private Collection<Empleado> subordinados;
+
+    public Directivo() { // Minimo 0
+    }
+    
+    public Collection<Empleado> getSubordinados() {
+        return subordinados;
+    }
+    
+    
+    
+    
     
 }
